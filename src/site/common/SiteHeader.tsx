@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
-import logo from "@/assets/logo.png";
+import logo_svg from "@/assets/logo_svg.svg";
 import headerbg from "@/assets/site/header.png";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -58,7 +58,7 @@ export default function SiteHeader() {
       <div className="container-custom mx-auto py-5 flex items-center justify-between text-white">
         {/* LOGO */}
         <Link to="/">
-          <img src={logo} alt="logo" className="cursor-pointer" />
+          <img src={logo_svg} alt="logo" className="cursor-pointer w-full max-w-[200px]" />
         </Link>
 
         <nav className="hidden xl:flex gap-[30px] text-base leading-[16px] font-medium text-[#F4F4F5]">

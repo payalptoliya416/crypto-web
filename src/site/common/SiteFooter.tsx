@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import footerlogo from "@/assets/site/footer-logo.png";
+import footerlogo from "@/assets/logo_svg.svg";
 import footerbg from "@/assets/site/footerbg.png";
 import l1 from "@/assets/site/l1.svg";
 import l2 from "@/assets/site/l2.svg";
