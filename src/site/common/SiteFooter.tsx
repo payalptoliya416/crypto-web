@@ -53,7 +53,7 @@ export default function SiteFooter() {
           </h2>
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
             <Link
-              to="/"
+              to="https://wallet.cryptosfort.com/"
               className="bg-[#262732] text-white px-[22px] py-3 rounded-[12px] text-lg leading-[18px] font-semibold  transition-all duration-300 ease-in-out
       hover:bg-black hover:scale-105 hover:-translate-y-1
       hover:shadow-lg hover:shadow-black/40"

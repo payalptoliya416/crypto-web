@@ -3,7 +3,6 @@ import w2 from "@/assets/site/w2.png";
 import w3 from "@/assets/site/w3.png";
 import wbg from "@/assets/site/w-bg.png";
 import bg from "@/assets/site/bg.png";
-import { Link } from "react-router-dom";
 
 export default function AvailabilitySection() {
   const data = [
@@ -13,16 +12,19 @@ export default function AvailabilitySection() {
       btn: "Launch Wallet",
       active: true,
       badge: "Live Now",
+       link: "https://wallet.cryptosfort.com/",
     },
     {
       icon: w2,
       title: "Android",
       btn: "Coming Soon",
+        link: "javascript:void(0)",
     },
     {
       icon: w3,
       title: "IOS",
       btn: "Coming Soon",
+       link: "javascript:void(0)",
     },
   ];
 
@@ -63,7 +65,7 @@ export default function AvailabilitySection() {
               </h3>
               <div className="relative rounded-[32px] p-[1px] bg-gradient-to-r from-white/0 via-white/20 to-white/0 mb-[30px]" />
 
-              <Link to="/"
+              <a href={item.link}
                 className={`
                   px-[22px] py-[12px] rounded-[12px] text-lg leading-[18px] font-semibold transition-all
                   ${
@@ -74,7 +76,7 @@ export default function AvailabilitySection() {
                 `}
               >
                 {item.btn}
-              </Link>
+              </a>
             </div>
           ))}
         </div>

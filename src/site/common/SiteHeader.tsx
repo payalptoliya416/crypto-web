@@ -97,7 +97,7 @@ export default function SiteHeader() {
 
         {/* BUTTONS */}
         <div className="hidden xl:flex gap-4">
-          <Link to="/"
+          <Link to="https://wallet.cryptosfort.com/"
             className="bg-[#25C866] rounded-xl text-white py-3 px-[22px] text-lg leading-[18px] font-semibold 
             transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#25C866]/40"
           >
